@@ -1,0 +1,11 @@
+# Never commit the real .env — it contains your API key.
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local extraction artifacts (these contain untrusted agent output)
+sandbox_snapshot_*/
+digest_snapshot_*/
+extracted_snapshot/
+*.tar
